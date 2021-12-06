@@ -19,3 +19,9 @@ console.log(reverseArray["a", "b", "c", "d", "e"])
 //third loop:
 //i = 2, i is not less than 2 // stop
 //console.log ---> [e,d,c,b,a]
+
+
+function reverseArray(a) {
+    a.reverse();
+    return a;
+}
